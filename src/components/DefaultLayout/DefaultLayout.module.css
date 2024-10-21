@@ -4,7 +4,7 @@
 
 .titulo__pagina {
     height: 500px;
-    background-image: url("pagina-principal-imagem.webp");
+    background-image: url("../../../public/pagina-principal-imagem.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
