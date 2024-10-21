@@ -17,7 +17,11 @@
     font-size: 36px;
     font-family: "Roboto", sans-serif;
     color: var(--color-quaternaria);
-    -webkit-text-stroke: 2px black;
+    text-shadow: 
+        -1.5px -1.5px 0px black,   /* Sombra superior esquerda */
+        1.5px -1.5px 0px black,    /* Sombra superior direita */
+        -1.5px 1.5px 0px black,    /* Sombra inferior esquerda */
+        1.5px 1.5px 0px black;     /* Sombra inferior direita */
 }
 
 .content {
