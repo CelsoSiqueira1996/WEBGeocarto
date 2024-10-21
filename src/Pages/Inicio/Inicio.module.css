@@ -1,0 +1,15 @@
+.content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > h1 {
+    font-family: var(--font-principal);
+    margin: 1em;
+}
+
+.content > img {
+    margin: 1em;
+    border-radius: 8px;
+}

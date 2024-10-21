@@ -1,0 +1,5 @@
+.rodape {
+    border-top: 1px solid var(--color-primaria);
+    background-color: var(--color-quaternaria);
+    min-height: 100px;
+}

@@ -1,0 +1,32 @@
+.pagina-padrao {
+    margin-bottom: 100px;
+}
+
+.titulo__pagina {
+    height: 500px;
+    background-image: url("pagina-principal-imagem.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo__pagina > h1 {
+    padding-top: 150px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    color: var(--color-quaternaria);
+    -webkit-text-stroke: 2px black;
+}
+
+.content {
+    max-width: 970px;
+    padding: 80p 90px;
+    margin: -250px auto 0 auto;
+    border-radius: 10px;
+    width: 970px;
+    min-height: 900px;
+    background-color: var(--color-terciaria);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
